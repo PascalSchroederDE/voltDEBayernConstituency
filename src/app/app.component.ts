@@ -136,7 +136,7 @@ info.update = function (props) {
     '<tr><td><b>Zugewiesen:</b></td><td>' + data.assigned + '</td></tr>' + 
     '<tr><td><b>Team:</b></td><td>' + data.team + '</td></tr>' + 
     '<tr><td><b>Kontaktperson:</b></td><td>' + data.contact + '</td></tr>' + 
-    '<tr><td><b>Forschritt:</b></td><td>' + data.progress + '</td></tr>' + '</table><br>' + 
+    '<tr><td><b>Forschritt:</b></td><td>' + data.progress + '%</td></tr>' + '</table><br>' + 
     (data.link!="" ? '<a style="color: #502379; font-size: 16px; text-decoration:none; " href="'+data.link+'" target="_blank">Weiterführender Link</a>' : '<a style="color:#444;font-size: 16px">Kein Link hinterlegt</a>');
   }
 };
