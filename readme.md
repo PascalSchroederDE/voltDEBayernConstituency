@@ -1,0 +1,1 @@
+This is a repository containing logic for presenting constituencies with beloging data for Volt Deutschland (Bayern).
